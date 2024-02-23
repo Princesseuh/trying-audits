@@ -10,11 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/preact": "^3.1.0",
-    "@astrojs/solid-js": "^3.0.2",
-    "astro": "link:../../astro/packages/astro",
-    "preact": "^10.19.3",
-    "solid-js": "^1.4.3",
+    "astro": "experimental--audits-ui",
     "typescript": "^5.3.3"
   }
 }

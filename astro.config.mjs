@@ -1,12 +1,9 @@
 import { defineConfig, passthroughImageService } from "astro/config";
 import myIntegration from "./src/my-integration.js";
-import solidJs from "@astrojs/solid-js";
-
-import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [myIntegration(), preact()],
+  integrations: [myIntegration()],
   image: {
     service: passthroughImageService(),
   },
